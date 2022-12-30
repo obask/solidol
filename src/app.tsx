@@ -12,7 +12,7 @@ export function App() {
     return (
         <>
             <div>
-                <a href="https://vitejs.dev" target="_blank">
+                <a addEventListener={() => undefined} href="https://vitejs.dev" target="_blank">
                     <img src="/vite.svg" class="logo" alt="Vite logo" />
                 </a>
                 <a href="https://preactjs.com" target="_blank">
@@ -21,7 +21,7 @@ export function App() {
             </div>
             <h1>Vite + Preact</h1>
             <div class="card">
-                <button onClick={() => setCount((count: number) => count + 1)}>
+                <button onclick={() => setCount((count: number) => count + 1)}>
                     count is {count}
                 </button>
                 <Comp />
