@@ -4,7 +4,7 @@ import preactLogo from './assets/preact.svg'
 import './app.css'
 import Comp from './comp'
 import { useState } from '../packages/solidol/src'
-// import * from "preact/jsx-runtime"
+// import In from "solidol/jsx-runtime"
 
 export function App() {
     const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ export function App() {
                     <img src="/vite.svg" class="logo" alt="Vite logo" />
                 </a>
                 <a href="https://preactjs.com" target="_blank">
-                    <img src={preactLogo} class="logo preact" alt="Preact logo" />
+                    <img src={preactLogo} className="logo preact" alt="Preact logo" />
                 </a>
             </div>
             <h1>Vite + Preact</h1>
