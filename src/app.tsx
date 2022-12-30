@@ -3,8 +3,8 @@
 import preactLogo from './assets/preact.svg'
 import './app.css'
 import Comp from './comp'
-import { useState } from './mytsx'
-
+import { useState } from '../packages/solidol/src'
+// import * from "preact/jsx-runtime"
 
 export function App() {
     const [count, setCount] = useState(0)

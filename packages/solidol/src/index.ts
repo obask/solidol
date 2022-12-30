@@ -1,4 +1,4 @@
-import { MyNode } from "mytsx/jsx-runtime";
+import { MyNode } from "../jsx-runtime";
 
 export function useState<T>(a: T): [T, ((arg0: (arg0: T) => T) => void)] {
     return [a, (f) => (p: T) => a]

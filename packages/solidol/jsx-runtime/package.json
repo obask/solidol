@@ -1,0 +1,11 @@
+{
+  "name": "jsx-runtime",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "exports": {
+    ".": {
+      "default": "./src/index.js"
+    }
+  }
+}

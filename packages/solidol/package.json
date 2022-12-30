@@ -1,0 +1,17 @@
+{
+  "name": "solidol",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/react": "^18.0.26"
+  },
+  "files": [
+    "src/index.ts",
+    "jsx-runtime/index.ts"
+  ],
+  "exports": {
+    ".": {
+      "default": "./src/index.js"
+    }
+  },
+  "main": "src/index.ts"
+}
