@@ -5,13 +5,14 @@
     "@types/react": "^18.0.26"
   },
   "files": [
-    "src/index.ts",
-    "jsx-runtime/index.ts"
+    "dom/*",
+    "jsx-runtime"
   ],
   "exports": {
-    ".": {
-      "default": "./src/index.js"
-    }
+    "./dom/*": "./dom/*",
+    "./render/*": "./render/*",
+    "./reactive/*": "./reactive/*"
+
   },
   "main": "src/index.ts"
 }

@@ -3,12 +3,18 @@
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "Node",
+    "strict": true,
+    "sourceRoot": "src",
     "sourceMap": true
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
-    "src"
+    "dom/*",
+    "jsx-runtime/*",
+    "reactive/*",
+    "render/*",
+    "web/*",
   ]
 }
